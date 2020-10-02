@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Board Game Deconstruction</title>
+        <style>
+            .oPiece {
+                fill: #ffffff;
+                stroke-width: 3;
+                
+            }
+            /* #divy {
+                width: 1000px;
+                height: 1000px;
+                background-color: aquamarine;
+            } */
+
+        </style>
+    </head>
+    <body>
+        <!-- <div id="divy"> -->
+        <svg viewBox="0 0 900 900">
+            <line x1="100" y1="0" x2="100" y2="300" stroke-weight="5" stroke="#000" class="vertiLine" />
+            <line x1="200" y1="0" x2="200" y2="300" stroke-weight="5" stroke="#000" class="vertiLine" />
+
+            <line x1="0" y1="100" x2="300" y2="100" stroke-weight="5" stroke="#000" class="horiLine" />
+            <line x1="0" y1="200" x2="300" y2="200" stroke-weight="5" stroke="#000" class="horiLine" />
+
+            <circle cx="50" cy="50" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="150" cy="50" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="250" cy="50" r="40" stroke="#FFF" class="oPiece"/>
+           
+            <circle cx="50" cy="150" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="150" cy="150" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="250" cy="150" r="40" stroke="#FFF" class="oPiece"/>
+
+            <circle cx="50" cy="250" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="150" cy="250" r="40" stroke="#FFF" class="oPiece"/>
+            <circle cx="250" cy="250" r="40" stroke="#FFF" class="oPiece"/>
+
+
+        </svg>
+    <!-- </div> -->
+    </body>
+    <script src="js/app.js"></script>
+</html>
