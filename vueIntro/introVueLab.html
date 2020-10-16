@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intro Vue Lab</title>
+        <style>
+            .book {
+                background-color:rgb(119, 94, 11);
+                height: 200px;
+                width: 150px;
+                text-align: center;
+                margin: 10px;
+                padding: 5px;
+                float: left;
+            }
+         
+            button {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <book-item
+                v-for="book in bookList"
+                v-bind:key="book.id"
+                v-bind:title="book.title"
+                v-bind:cover="book.cover"
+                v-bind:author="book.author"
+            ></book-item>
+            <book-item
+                v-for="book in bookList2"
+                v-bind:key="book.id"
+                v-bind:title="book.title"
+                v-bind:cover="book.cover"
+                v-bind:author="book.author"
+                v-if="showy"
+            ></book-item>
+            <br>
+            <button v-on:click="toggleBook">Toggle Second Book</button>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+</html>
