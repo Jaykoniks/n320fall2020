@@ -29,7 +29,8 @@ for(i=0;i<pics.length;i++) {
     pics[i].addEventListener("mouseover", highlight); 
     pics[i].addEventListener("mouseout", unhighlight); 
     pics[i].addEventListener("click", view); 
-
+    console.log(pics)
+    console.log(pics[i])
 }
 
 function highlight() {

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Gorgon",
+        "image": "images/gorgon.jpg",
+        "abilities": ["Cognitohazard", "Intelligent", "Toxic"],
+        "description": "Born of betrayal, gorgons are dangerous creatures that are best avoided by even the most seasoned adventurers. After all, when all it takes is a single look for it to defeat you, it doesn't matter how experienced you are. If you absolutely must face a gorgon, make sure to use area of effect attacks, such as bombs or fireballs, in order to avoid gazing into the creature's eyes."
+    },
+    {
+        "name": "Werewolf",
+        "image": "images/werewolf.png",
+        "abilities": ["Mammalian", "Transformative", "Infectious"],
+        "description": "It's debated by scholars whether werewolves are true monsters or simply normal people with an incredibly unusual affliction. Whatever the case, it is advised to stay away from them, as even if you manage to kill it, one bite is all it takes for a new werewolf to take its place. When facing a werewolf, make sure to keep your distance and where heavy armor, in order to avoid being bitten. If you can afford silver weapons, use them."
+    },
+    {
+        "name": "Dragon",
+        "image": "images/dragon.png",
+        "abilities": ["Reptillian", "Intelligent", "Elemental"],
+        "description": "Powered by a lust for riches, dragons are formidable opponents that are best avoided by most adventurers. However, for those well equipped enough to take one on, a dragon's den provides a massive reward to match the risk. If you are brave or stupid enough to take one on, make sure to determine what element of dragon you are dealing with, as this will determine its breath weapon and elemental resistances and weaknesses."
+    },
+    {
+        "name": "Zombie",
+        "image": "images/zombie.jpg",
+        "abilities": ["Undead", "Artificial", "Mindless"],
+        "description": "Brought back from the dead, zombies are one of the monsters that ranges the most in terms of danger. It could be a lone, shambling pile of rotting flesh, or it could be a perfectly preserved soldier in an undead army of thousands. The best advice for taking on any undead is to deal with the necromancer first, if you are able."
+    },
+    {
+        "name": "Hellhound",
+        "image": "images/hellhound.png",
+        "abilities": ["Demonic", "Animalistic", "Otherworldly"],
+        "description": "Origininating from the underworld, hellhounds are not creatures to be taken lightly. With its debilitating bite and natural ability for tracking, it's wise to stay away from them if you aren't confident in your ability to take them out. Be mindful of their toxic bite and immunity to flames when taking one on."
+    },
+    {
+        "name": "Ghost",
+        "image": "images/ghost.jpg",
+        "abilities": ["Ethereal", "Intangible", "Otherworldly"],
+        "description": "Contrary to popular belief, most scholars do not believe ghosts to be the souls of dead people. Instead, the prevailing hypothesis is that they are beings from another realm not fully able to cross into our own, but just powerful enough to still affect it. Adventurers are not advised to combat ghosts, as they require specific rituals in order to be dispatched. Instead, steer clear of the area, as they usually can't wander far from their origin point."
+    }
+]
